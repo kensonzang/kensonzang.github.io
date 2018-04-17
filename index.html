@@ -88,8 +88,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><div data-v-13f76525="" data-v-3f216172="" class="main-area article-area shadow"><time data-v-13f76525="" datetime="2018-04-14T10:31:42.809Z" title="Sat Apr 14 2018 18:31:42 GMT+0800 (CST)" class="time">2018 年 04 月 14 日</time><!----></div><!----></p><h1 data-v-13f76525="" class="article-title">webpack从此不再是我们的痛点 — 核心基础</h1><div data-v-13f76525="" itemprop="articleBody" class="article-content"><blockquote><p></p>
-<p></p><p>webpack一直是前端工程师的痛点，因为他的复杂、分散、loader、plugin这些第三方，让我们的学习成本陡然上升，使我们一直对他的配置模棱两可，今天带大家彻底明白他如何配置，摆脱困扰我们很久的痛点。本篇主要是webpack基础配置详解，关于webpack的模块chunk、编译阶段流程、输出阶段流程、loader的编写和手写plugin会在后续文章推出，为了避免错过可以关注我或者收藏我的个人博客<a href="http://www.ngaiwe.com" target="_blank" rel="noopener">www.ngaiwe.com</a></p><br></blockquote><p></p>
+        <p><div data-v-13f76525="" data-v-3f216172="" class="main-area article-area shadow"><time data-v-13f76525="" datetime="2018-04-14T10:31:42.809Z" title="Sat Apr 14 2018 18:31:42 GMT+0800 (CST)" class="time">2018 年 04 月 14 日</time><!----></div><!----><div data-v-13f76525="" itemprop="articleBody" class="article-content"><blockquote></blockquote></div></p>
+<p></p><p>webpack一直是前端工程师的痛点，因为他的复杂、分散、loader、plugin这些第三方，让我们的学习成本陡然上升，使我们一直对他的配置模棱两可，今天带大家彻底明白他如何配置，摆脱困扰我们很久的痛点。本篇主要是webpack基础配置详解，关于webpack的模块chunk、编译阶段流程、输出阶段流程、loader的编写和手写plugin会在后续文章推出，为了避免错过可以关注我或者收藏我的个人博客<a href="http://www.ngaiwe.com" target="_blank" rel="noopener">www.ngaiwe.com</a></p><br><p></p>
 <p></p><h3 class="heading" data-id="heading-0">1.webpack是什么？</h3><p></p>
 <p></p><p>WebPack可以看做是模块打包机：它做的事情是，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Scss，TypeScript等），并将其打包为合适的格式以供浏览器使用。并且跟具你的在项目中的各种需求，实现自动化处理，解放我们的生产力</p><p></p>
 <p><ul></ul></p>
@@ -510,7 +510,7 @@ module.exports = {
         compress: true,//服务器返回给浏览器的时候是否启动gzip压缩
     }
 }
-</code></pre></div>
+</code></pre>
       
     </div>
     <footer class="article-footer">
