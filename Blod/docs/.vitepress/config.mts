@@ -5,6 +5,7 @@ export default defineConfig({
   title: "kenson blod",
   description: "A VitePress Site",
   outDir: '../../MyBlod',
+  base:"MyBlod",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
